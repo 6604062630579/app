@@ -123,7 +123,7 @@ export default function App() {
               <p className="text-red-500 font-medium">{result.error}</p>
             ) : (
               <>
-                <p className="text-green-600 font-medium">
+                <p className="text-red-600 font-medium">
                   Root ≈ {result.result.toFixed(6)} (iterations:{" "}
                   {result.iterations})
                 </p>
